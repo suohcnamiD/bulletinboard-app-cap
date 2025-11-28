@@ -53,3 +53,68 @@ source/practical-thesis-cap/srv/src/main/resources/._edmx
 source/practical-thesis-cap/srv/src/main/resources/._schema-h2.sql
 source/practical-thesis-cap/srv/src/main/resources/._schema-sqlite.sql
 source/practical-thesis-cap/srv/src/main/resources/application.yaml
+appendices/Bruno/bruno.json
+appendices/Bruno/collection.bru
+appendices/Bruno/General/Create a user.bru
+appendices/Bruno/General/Create an ad.bru
+appendices/Bruno/General/Delete a user.bru
+appendices/Bruno/General/folder.bru
+appendices/Bruno/General/Get all ads.bru
+appendices/Bruno/General/Get all users.bru
+appendices/Bruno/General/Toggle ad's sold status.bru
+appendices/Bruno/General/Update user's contact.bru
+appendices/Bruno/Tests/folder.bru
+appendices/Bruno/Tests/1. Defining the service/1. Create an ad.bru
+appendices/Bruno/Tests/1. Defining the service/2. Get the ad by ID.bru
+appendices/Bruno/Tests/1. Defining the service/3. Create an ad with ID.bru
+appendices/Bruno/Tests/1. Defining the service/4. Get all ads.bru
+appendices/Bruno/Tests/1. Defining the service/folder.bru
+appendices/Bruno/Tests/Final/folder.bru
+appendices/Bruno/Tests/Final/1. User created -- user visible/1. Create a user.bru
+appendices/Bruno/Tests/Final/1. User created -- user visible/folder.bru
+appendices/Bruno/Tests/Final/2. Ad created -- ad visible/1. Create an ad.bru
+appendices/Bruno/Tests/Final/2. Ad created -- ad visible/2. Get the created ad by ID.bru
+appendices/Bruno/Tests/Final/2. Ad created -- ad visible/3 Find the created ad in user's ads.bru
+appendices/Bruno/Tests/Final/2. Ad created -- ad visible/folder.bru
+appendices/Bruno/Tests/Final/3. Ad created -- ad deletable/1. Create an ad.bru
+appendices/Bruno/Tests/Final/3. Ad created -- ad deletable/2. Get the created ad by ID.bru
+appendices/Bruno/Tests/Final/3. Ad created -- ad deletable/3. Delete the created ad by ID.bru
+appendices/Bruno/Tests/Final/3. Ad created -- ad deletable/folder.bru
+appendices/Bruno/Tests/Final/4. Ad created with ID -- 405/1. Create an ad.bru
+appendices/Bruno/Tests/Final/4. Ad created with ID -- 405/folder.bru
+appendices/Bruno/Tests/Final/5. Ad with invalid ID deleted -- error/1. Delete an invalid ad.bru
+appendices/Bruno/Tests/Final/5. Ad with invalid ID deleted -- error/folder.bru
+appendices/Bruno/Tests/Final/6. Ad created, deactivated -- active- false/1. Create an ad.bru
+appendices/Bruno/Tests/Final/6. Ad created, deactivated -- active- false/2. Get the created ad.bru
+appendices/Bruno/Tests/Final/6. Ad created, deactivated -- active- false/3. Toggle ad's active state.bru
+appendices/Bruno/Tests/Final/6. Ad created, deactivated -- active- false/4. Get the created ad.bru
+appendices/Bruno/Tests/Final/6. Ad created, deactivated -- active- false/folder.bru
+appendices/Bruno/Tests/Final/7. Ad without an ID deleted -- error/1. Delete an ad without an ID.bru
+appendices/Bruno/Tests/Final/7. Ad without an ID deleted -- error/folder.bru
+appendices/Bruno/Tests/2. Defining custom logic/1. Create an ad.bru
+appendices/Bruno/Tests/2. Defining custom logic/2. Get the ad by ID.bru
+appendices/Bruno/Tests/2. Defining custom logic/3. Set the active status of the ad to false.bru
+appendices/Bruno/Tests/2. Defining custom logic/4. Get the ad by ID.bru
+appendices/Bruno/Tests/2. Defining custom logic/folder.bru
+appendices/Bruno/Tests/999. Final/folder.bru
+appendices/Bruno/Tests/999. Final/1. User created -- user visible/1. Create a user.bru
+appendices/Bruno/Tests/999. Final/1. User created -- user visible/folder.bru
+appendices/Bruno/Tests/999. Final/2. Ad created -- ad visible/1. Create an ad.bru
+appendices/Bruno/Tests/999. Final/2. Ad created -- ad visible/2. Get the created ad by ID.bru
+appendices/Bruno/Tests/999. Final/2. Ad created -- ad visible/3 Find the created ad in user's ads.bru
+appendices/Bruno/Tests/999. Final/2. Ad created -- ad visible/folder.bru
+appendices/Bruno/Tests/999. Final/3. Ad created -- ad deletable/1. Create an ad.bru
+appendices/Bruno/Tests/999. Final/3. Ad created -- ad deletable/2. Get the created ad by ID.bru
+appendices/Bruno/Tests/999. Final/3. Ad created -- ad deletable/3. Delete the created ad by ID.bru
+appendices/Bruno/Tests/999. Final/3. Ad created -- ad deletable/folder.bru
+appendices/Bruno/Tests/999. Final/4. Ad created with ID -- 405/1. Create an ad.bru
+appendices/Bruno/Tests/999. Final/4. Ad created with ID -- 405/folder.bru
+appendices/Bruno/Tests/999. Final/5. Ad with invalid ID deleted -- error/1. Delete an invalid ad.bru
+appendices/Bruno/Tests/999. Final/5. Ad with invalid ID deleted -- error/folder.bru
+appendices/Bruno/Tests/999. Final/6. Ad created, deactivated -- active- false/1. Create an ad.bru
+appendices/Bruno/Tests/999. Final/6. Ad created, deactivated -- active- false/2. Get the created ad.bru
+appendices/Bruno/Tests/999. Final/6. Ad created, deactivated -- active- false/3. Toggle ad's active state.bru
+appendices/Bruno/Tests/999. Final/6. Ad created, deactivated -- active- false/4. Get the created ad.bru
+appendices/Bruno/Tests/999. Final/6. Ad created, deactivated -- active- false/folder.bru
+appendices/Bruno/Tests/999. Final/7. Ad without an ID deleted -- error/1. Delete an ad without an ID.bru
+appendices/Bruno/Tests/999. Final/7. Ad without an ID deleted -- error/folder.bru

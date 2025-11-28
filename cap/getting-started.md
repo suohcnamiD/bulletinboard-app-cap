@@ -20,7 +20,7 @@ Create a [new GitHub repository](https://github.com/new). For the name, you can 
 
 ## 2 - Clone and initialize the Maven Project in your IDE
 
-1. Clone the repository in your terminal (insert the git URL to your fork):
+1. Clone the repository in your terminal (insert your GitHub username):
 
    ```bash
    git clone https://github.com/<YOUR USERNAME>/bulletinboard-ads-cap bulletinboard-ads-cap
