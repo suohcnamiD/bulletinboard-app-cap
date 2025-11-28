@@ -1,6 +1,6 @@
 ---
 title: Introduction
-layout: default
+layout: home
 ---
 
 # Hello, world!
