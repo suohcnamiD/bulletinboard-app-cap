@@ -59,9 +59,9 @@ Add the `Ads` entity to your model:
 
 ```cds
 entity Ads : cuid {
-    title  : String;
-    price  : Price;
-    active : Boolean default true;
+    title   : String;
+    contact : String;
+    price   : Price;
 }
 ```
 
@@ -71,42 +71,8 @@ Let's break this down:
 |---------|-------------|
 | `entity Ads : cuid` | Creates an entity that inherits a UUID-based `ID` field |
 | `title : String` | A simple string field for the ad title |
+| `contact : String` | A string field for contact information |
 | `price : Price` | Uses the custom `Price` type defined above |
-| `active : Boolean default true` | A boolean with a default value |
-
-## 5 - Verify the complete model
-
-Your complete `db/model.cds` should look like this:
-
-```cds
-namespace com.sap.cc.bulletinboard;
-
-using {
-    cuid,
-    Currency
-} from '@sap/cds/common';
-
-type Price {
-    value    : Decimal(10, 3);
-    currency : Currency
-}
-
-entity Ads : cuid {
-    title  : String;
-    price  : Price;
-    active : Boolean default true;
-}
-```
-
-## 6 - Test your data model
-
-Run the application to verify your data model compiles correctly:
-
-```bash
-mvn spring-boot:run
-```
-
-If there are no errors, CAP has successfully parsed your data model and generated the corresponding database schema.
 
 ---
 
