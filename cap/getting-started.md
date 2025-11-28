@@ -16,11 +16,13 @@ Create a [new GitHub repository](https://github.com/new). For the name, you can 
 
 ## 2 - Clone and initialize the Maven Project in your IDE
 1. Clone the repository in your terminal (insert the git URL to your fork):
+
 ```git clone https://github.com/<YOUR USERNAME>/bulletinboard-ads-cap bulletinboard-ads-cap```
 2. Import the project into your IDE: 
 === "IntelliJ" 1. From the main menu, choose `File > Open...`. 2. Navigate to the folder where you checked out the project (**bulletinboard-ads-cap**) and click `OK`.
 TODO: import for other tools (vscode)
 3. Use the CAP Java Maven archetype to bootstrap a new CAP Java project:
+
 ```mvn archetype:generate -DarchetypeArtifactId="cds-services-archetype" -DarchetypeGroupId="com.sap.cds" -DarchetypeVersion="RELEASE" -DinteractiveMode=true```
 
 When prompted, specify the group ID (**com.sap.cc**) and artifact ID (**bulletinboard**) of your application. The artifact ID also specifies the name of your projects root folder that is generated in your current working directory. For other values prompted, it's enough to simply confirm the default values.
@@ -28,7 +30,8 @@ When prompted, specify the group ID (**com.sap.cc**) and artifact ID (**bulletin
 ## 3 - Start your application
 === "Command Line"
 - Run the application using the following command:
-`mvn spring-boot:run`
+
+```mvn spring-boot:run```
 
 ## 4 - Set up Bruno
 At the end of each exercise we instruct you to di some smoke testing. We recommend you use Bruno to perform these smoke tests.
